@@ -32920,3 +32920,15 @@ a.text-muted:hover {
   color: #ced4da;
 }
 /*# sourceMappingURL=adminlte.css.map */
+.box {
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  border-top: 3px solid #d2d6de;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+.box.box-primary {
+  border-top-color: #3c8dbc;
+}

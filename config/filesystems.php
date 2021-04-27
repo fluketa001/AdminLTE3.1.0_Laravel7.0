@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('FILESYSTEM_DRIVER', 'local'),
+    'default' => env('FILESYSTEM_DRIVER', 'public'),
 
     /*
     |--------------------------------------------------------------------------
@@ -45,6 +45,8 @@ return [
 
         'local' => [
             'driver' => 'local',
+            // 'root' => 'public_html/serenityrents.com/storage/',
+            // 'root' => '/var/www/vhosts/serenityrents.com/public_html/storage',
             'root' => storage_path('app'),
         ],
 
